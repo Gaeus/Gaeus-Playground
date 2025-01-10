@@ -1,7 +1,5 @@
-studentamount=input('How many students on the course? :')
-groupamount=input('Desiredgroupsize? :')
-
-groupformed=int(studentamount)//int(groupamount)
+studentamount=input('How many participants? :')
+groupamount=input('Desired group size? :')
 
 groupformed = (int(studentamount) + int(groupamount) - 1) // int(groupamount)
 
